@@ -13,6 +13,8 @@
 		9E63F30E27B2497400E38DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E63F30C27B2497400E38DA2 /* Main.storyboard */; };
 		9E63F31027B2497500E38DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E63F30F27B2497500E38DA2 /* Assets.xcassets */; };
 		9E63F31327B2497500E38DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E63F31127B2497500E38DA2 /* LaunchScreen.storyboard */; };
+		9E63F31B27B24AF000E38DA2 /* pokeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63F31A27B24AF000E38DA2 /* pokeCard.swift */; };
+		9E63F31D27B26AE700E38DA2 /* moneyCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63F31C27B26AE700E38DA2 /* moneyCount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9E63F30F27B2497500E38DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E63F31227B2497500E38DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E63F31427B2497500E38DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E63F31A27B24AF000E38DA2 /* pokeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokeCard.swift; sourceTree = "<group>"; };
+		9E63F31C27B26AE700E38DA2 /* moneyCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneyCount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 				9E63F30827B2497400E38DA2 /* SceneDelegate.swift */,
 				9E63F30A27B2497400E38DA2 /* ViewController.swift */,
 				9E63F30C27B2497400E38DA2 /* Main.storyboard */,
+				9E63F31C27B26AE700E38DA2 /* moneyCount.swift */,
 				9E63F30F27B2497500E38DA2 /* Assets.xcassets */,
+				9E63F31A27B24AF000E38DA2 /* pokeCard.swift */,
 				9E63F31127B2497500E38DA2 /* LaunchScreen.storyboard */,
 				9E63F31427B2497500E38DA2 /* Info.plist */,
 			);
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E63F31D27B26AE700E38DA2 /* moneyCount.swift in Sources */,
 				9E63F30B27B2497400E38DA2 /* ViewController.swift in Sources */,
 				9E63F30727B2497400E38DA2 /* AppDelegate.swift in Sources */,
+				9E63F31B27B24AF000E38DA2 /* pokeCard.swift in Sources */,
 				9E63F30927B2497400E38DA2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
